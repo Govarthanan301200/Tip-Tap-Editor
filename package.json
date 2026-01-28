@@ -1,0 +1,37 @@
+{
+  "name": "dash_tiptap",
+  "version": "0.0.1",
+  "scripts": {
+    "build:js": "webpack --mode production"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "@tiptap/react": "^3.14.0",
+    "@tiptap/starter-kit": "^3.14.0",
+    "@tiptap/extension-mention": "^3.14.0",
+    "@tiptap/suggestion": "^3.14.0",
+    "tippy.js": "^6.3.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/preset-env": "^7.22.2",
+    "@babel/preset-react": "^7.22.3",
+    "@plotly/dash-component-plugins": "^1.2.3",
+    "@plotly/webpack-dash-dynamic-import": "^1.2.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "eslint": "^6.0.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-react": "^7.14.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-docgen": "^5.4.3",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "styled-jsx": "^3.2.1",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
